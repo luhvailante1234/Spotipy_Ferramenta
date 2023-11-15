@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de Gráficos</title>
+    <style>
+        body {
+            background: #201b2c;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Espaço entre a imagem e os botões */
+            width: 100%; /* Garante que o espaço seja maximizado */
+        }
+
+        .image-container {
+            flex: 1; /* Espaço flexível para a imagem */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .text-container {
+            flex: 0;
+            padding: 30px;
+           
+        }
+
+        h1 {
+            color: limegreen;
+            font-size: 2em;
+            padding: 30px;
+            flex: 0;
+            padding: 10px;
+            margin-right: 20px; 
+        }
+
+        .button-container {
+            flex: 1; /* Espaço flexível para os botões */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .button-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button-container button {
+            background: limegreen;
+            color: white;
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding: 32px 70px;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerador de Gráficos</h1>
+    
+    {% if grafico1 %}
+    <img src="{{ url_for('static', filename='grafico.png') }}" alt="Gráfico 1">
+    {% else %}
+    <button onclick="window.location.href='/gerar_grafico'">Gerar Gráfico 1</button>
+    {% endif %}
+
+    {% if grafico2 %}
+    <img src="{{ url_for('static', filename='grafico2.png') }}" alt="Gráfico 2">
+    {% else %}
+    <button onclick="window.location.href='/gerar_grafico2'">Gerar Gráfico 2</button>
+    {% endif %}
+
+    {% if grafico3 %}
+    <img src="{{ url_for('static', filename='grafico3.png') }}" alt="Gráfico 3">
+    {% else %}
+    <button onclick="window.location.href='/gerar_grafico3'">Gerar Gráfico 3</button>
+    {% endif %}
+    
+</body>
+</html>
