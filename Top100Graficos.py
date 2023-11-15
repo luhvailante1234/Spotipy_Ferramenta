@@ -10,7 +10,7 @@ def ler_dados_csv(arquivo):
             dados.append({'name_track': row[0], 'popularity': float(row[1].replace(',', '.'))})
     return dados
 
-def gerar_grafico2():
+def gerar_graficoTop100():
     dados = ler_dados_csv('Top100.csv')
     dados_ordenados = sorted(dados, key=lambda x: x['popularity'], reverse=True)
     

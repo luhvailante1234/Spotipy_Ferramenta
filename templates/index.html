@@ -71,26 +71,34 @@
         }
     </style>
 </head>
-<body>
-    <h1>Gerador de Gráficos</h1>
-    
-    {% if grafico1 %}
-    <img src="{{ url_for('static', filename='grafico.png') }}" alt="Gráfico 1">
-    {% else %}
-    <button onclick="window.location.href='/gerar_grafico'">Gerar Gráfico 1</button>
-    {% endif %}
 
-    {% if grafico2 %}
-    <img src="{{ url_for('static', filename='grafico2.png') }}" alt="Gráfico 2">
-    {% else %}
-    <button onclick="window.location.href='/gerar_grafico2'">Gerar Gráfico 2</button>
-    {% endif %}
-
-    {% if grafico3 %}
-    <img src="{{ url_for('static', filename='grafico3.png') }}" alt="Gráfico 3">
-    {% else %}
-    <button onclick="window.location.href='/gerar_grafico3'">Gerar Gráfico 3</button>
-    {% endif %}
     
-</body>
+    <body>
+        <h1>Gerador de Gráficos</h1>
+        
+        {% if grafico1 %}
+        <img src="{{ url_for('static', filename='grafico.png') }}" alt="Gráfico 1">
+        {% else %}
+        <button onclick="window.location.href='/gerar_graficoTop50'">Top 50</button>
+        {% endif %}
+
+        {% if grafico1 %}
+        <img src="{{ url_for('static', filename='grafico2.png') }}" alt="Gráfico 1">
+        {% else %}
+        <button onclick="window.location.href='/gerar_graficoTop100'">Top 100</button>
+        {% endif %}
+    
+        {% if grafico1 %}
+        <img src="{{ url_for('static', filename='grafico3.png') }}" alt="Gráfico 1">
+        {% else %}
+        <button onclick="window.location.href='/gerar_graficoTopBrasil'">Top Brasil</button>
+        {% endif %}
+    
+    
+        
+    
+    </body>
+    
+    
+
 </html>

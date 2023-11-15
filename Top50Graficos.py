@@ -1,5 +1,15 @@
 import csv
+from flask import Flask, render_template, redirect, url_for
 import matplotlib.pyplot as plt
+
+app = Flask(__name__)
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 def ler_dados_csv(arquivo):
     dados = []
@@ -10,7 +20,7 @@ def ler_dados_csv(arquivo):
             dados.append({'name_track': row[0], 'popularity': float(row[1].replace(',', '.'))})
     return dados
 
-def gerar_grafico():
+def gerar_graficoTop50():
     dados = ler_dados_csv('Top50.csv')
     dados_ordenados = sorted(dados, key=lambda x: x['popularity'], reverse=True)
     
@@ -18,11 +28,21 @@ def gerar_grafico():
     nomes_musicas = [dado['name_track'] for dado in dados_ordenados]
 
     plt.figure(figsize=(10, 6))
-    plt.plot(posicao, nomes_musicas)
+    plt.bar(posicao, [dado['popularity'] for dado in dados_ordenados])
     plt.xlabel('Posição')
-    plt.ylabel('Nome da Música')
+    plt.ylabel('Popularidade')
     plt.title('Músicas Mais Populares')
     plt.xticks(posicao, [dado['name_track'] for dado in dados_ordenados], rotation=90)
     plt.tight_layout()
     plt.savefig('static/grafico.png')
-    plt.close()
+    
+    return redirect(url_for('top50.html'))
+
+
+@app.route('/top50')
+def top50():
+    # Adicione lógica para renderizar a página Top50.html
+    return render_template('Top50.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
