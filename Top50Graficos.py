@@ -35,14 +35,6 @@ def gerar_graficoTop50():
     plt.xticks(posicao, [dado['name_track'] for dado in dados_ordenados], rotation=90)
     plt.tight_layout()
     plt.savefig('static/grafico.png')
+    plt.close()
+
     
-    return redirect(url_for('top50.html'))
-
-
-@app.route('/top50')
-def top50():
-    # Adicione lógica para renderizar a página Top50.html
-    return render_template('Top50.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)

@@ -16,7 +16,7 @@ def exibir_grafico():
 @app.route('/gerar_graficoTop50')
 def gerar_e_mostrar_grafico():
     gerar_graficoTop50()
-    return redirect(url_for('exibir_grafico', filename='top50.html'))
+    return redirect(url_for('exibir_grafico'))
 
 @app.route('/gerar_graficoTop100')
 def gerar_e_mostrar_grafico2():
