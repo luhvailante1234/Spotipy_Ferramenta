@@ -23,5 +23,10 @@ def gerar_e_mostrar_grafico2():
     gerar_grafico_popularidade_genero()
     return redirect(url_for('exibir_grafico'))
 
+@app.route('/gerar_graficoTopBrasil')
+def gerar_e_mostrar_grafico3():
+    gerar_grafico_variacao_popularidade()
+    return redirect(url_for('exibir_grafico'))
+
 if __name__ == '__main__':
     app.run(debug=True)
