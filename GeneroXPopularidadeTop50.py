@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 from itertools import cycle
 from flask import Flask, render_template, redirect, url_for
 
@@ -17,7 +18,15 @@ def gerar_grafico_popularidade_genero():
     distribuicao = df.groupby("genre").size()
 
     # Criar o gráfico de barras empilhadas
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(12, 6))
+
+    # Usar um ciclo para repetir as cores conforme necessário
+    cores = cycle(sns.color_palette('viridis', len(distribuicao)))
+
+    # Iterar sobre cada gênero e plotar uma barra com uma cor diferente
+    for genero, contagem in distribuicao.items():
+        cor = next(cores)
+        plt.bar(genero, contagem, color=cor, label=genero)
 
     # Adicionar um título e labels aos eixos
     plt.title("Distribuição de músicas por gênero", fontsize=17)
@@ -29,6 +38,9 @@ def gerar_grafico_popularidade_genero():
 
     # Ajustar o tamanho da fonte nos rótulos do eixo y
     plt.yticks(fontsize=14)
+
+    # Adicionar legenda
+    plt.legend(fontsize=10, title='Legenda', bbox_to_anchor=(1.05, 1), loc='upper left')
 
     # Exibir o gráfico
     plt.tight_layout()
