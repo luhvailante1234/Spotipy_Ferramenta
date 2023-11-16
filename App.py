@@ -18,7 +18,7 @@ def gerar_e_mostrar_grafico():
     gerar_grafico_popularidade_media_por_genero()
     return redirect(url_for('exibir_grafico'))
 
-@app.route('/gerar_graficoTop50')
+@app.route('/gerar_graficoTop100')
 def gerar_e_mostrar_grafico2():
     gerar_grafico_popularidade_genero()
     return redirect(url_for('exibir_grafico'))
