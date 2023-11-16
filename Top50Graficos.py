@@ -34,7 +34,7 @@ def gerar_graficoTop50():
     plt.title('Músicas Mais Populares')
     plt.xticks(posicao, [dado['name_track'] for dado in dados_ordenados], rotation=90)
     plt.tight_layout()
-    plt.savefig('static/grafico.png')
-    plt.close()
+    #plt.savefig('static/grafico.png')
+    #plt.close()
 
     
