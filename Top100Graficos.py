@@ -24,5 +24,5 @@ def gerar_graficoTop100():
     plt.title('Músicas Mais Populares 2')
     plt.xticks(rotation=90)
     plt.tight_layout()
-    plt.savefig('static/grafico2.png')
-    plt.close()
+    #plt.savefig('static/grafico2.png')
+    #plt.close()
