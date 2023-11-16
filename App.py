@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, url_for
 from GeneroXMediaTop50 import gerar_grafico_popularidade_media_por_genero
 from GeneroXPopularidadeTop50 import gerar_grafico_popularidade_genero
-from TopBrasilGraficos import gerar_graficoTopBrasil
+from VariacaoPopularidadeTop50 import gerar_grafico_variacao_popularidade
 
 app = Flask(__name__)
 
@@ -25,7 +25,7 @@ def gerar_e_mostrar_grafico2():
 
 @app.route('/gerar_graficoTopBrasil')
 def gerar_e_mostrar_grafico3():
-    gerar_graficoTopBrasil()
+    gerar_grafico_variacao_popularidade()
     return redirect(url_for('exibir_grafico'))
 
 if __name__ == '__main__':
