@@ -6,10 +6,20 @@
 <body>
     <h1>Gráfico</h1>
     
+    {% if grafico1 %}
     <img src="{{ url_for('static', filename='grafico.png') }}" alt="Seu Gráfico">
+    {% endif %}
 
+    {% if grafico2 %}
     <img src="{{ url_for('static', filename='grafico2.png') }}" alt="Seu Gráfico">
+    {% endif %}
 
+    {% if grafico3 %}
     <img src="{{ url_for('static', filename='grafico3.png') }}" alt="Seu Gráfico">
+    {% endif %}
+
+    {% if grafico4 %}
+    <img src="{{ url_for('static', filename='grafico4.png') }}" alt="Seu Gráfico">
+    {% endif %}
 </body>
 </html>

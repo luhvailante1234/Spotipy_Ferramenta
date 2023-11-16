@@ -2,6 +2,7 @@ from flask import Flask, render_template, redirect, url_for
 from GeneroXMediaTop50 import gerar_grafico_popularidade_media_por_genero
 from GeneroXPopularidadeTop50 import gerar_grafico_popularidade_genero
 from VariacaoPopularidadeTop50 import gerar_grafico_variacao_popularidade
+from PopularidadeXArtistaTop50 import gerar_grafico_popularidade_artista
 
 app = Flask(__name__)
 
@@ -16,17 +17,10 @@ def exibir_grafico():
 @app.route('/gerar_graficoTop50')
 def gerar_e_mostrar_grafico():
     gerar_grafico_popularidade_media_por_genero()
-    return redirect(url_for('exibir_grafico'))
-
-@app.route('/gerar_graficoTop100')
-def gerar_e_mostrar_grafico2():
     gerar_grafico_popularidade_genero()
-    return redirect(url_for('exibir_grafico'))
-
-@app.route('/gerar_graficoTopBrasil')
-def gerar_e_mostrar_grafico3():
     gerar_grafico_variacao_popularidade()
-    return redirect(url_for('exibir_grafico'))
+    gerar_grafico_popularidade_artista()
+    return render_template('grafico.html', grafico1=True, grafico2=True, grafico3=True, grafico4=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
