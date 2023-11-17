@@ -10,9 +10,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def gerar_grafico_popularidade_media_por_genero_Top50():
+def gerar_grafico_popularidade_media_por_genero_Top100():
     # Carregar dados do arquivo CSV
-    dados = pd.read_csv('spotifycharts-37i9dQZEVXbMXbN3EUUhlg.csv')
+    dados = pd.read_csv('spotifycharts-5YRmjoCTiI6uPGJAevX87A.csv')
 
     # Calcular a popularidade média por gênero
     popularidade_media_por_genero = dados.groupby('genre')['popularity'].mean().reset_index()
@@ -47,5 +47,5 @@ def gerar_grafico_popularidade_media_por_genero_Top50():
 
     # Salvar o gráfico como imagem
     plt.tight_layout()
-    plt.savefig('static/grafico.png')
+    plt.savefig('static/grafico5.png')
     plt.close()

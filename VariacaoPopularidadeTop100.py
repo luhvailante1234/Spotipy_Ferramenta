@@ -10,15 +10,15 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def gerar_grafico_variacao_popularidade_Top50():
+def gerar_grafico_variacao_popularidade_Top100():
     # Importar os dados do arquivo csv
-    df = pd.read_csv("spotifycharts-37i9dQZEVXbMXbN3EUUhlg.csv")
+    df = pd.read_csv("spotifycharts-5YRmjoCTiI6uPGJAevX87A.csv")
 
     # Converter a coluna 'date' para o tipo datetime
     df['date_collected'] = pd.to_datetime(df['date_collected'])
 
     # Escolher uma data específica (substitua '2023-01-01' pela data desejada)
-    data_especifica = '2023-11-15'
+    data_especifica = '2023-11-16'
     df_data_especifica = df[df['date_collected'] == data_especifica]
 
     # Selecionar as 10 músicas mais populares
@@ -50,7 +50,7 @@ def gerar_grafico_variacao_popularidade_Top50():
 
     # Ajustar o layout do gráfico
     plt.tight_layout()
-    plt.savefig('static/grafico3.png')
+    plt.savefig('static/grafico7.png')
     plt.close()
 
     # Exibir o gráfico

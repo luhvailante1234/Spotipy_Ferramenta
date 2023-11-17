@@ -10,9 +10,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def gerar_grafico_popularidade_artista_Top50():
+def gerar_grafico_popularidade_artista_Top100():
     # Importar os dados do arquivo csv
-    df = pd.read_csv("spotifycharts-37i9dQZEVXbMXbN3EUUhlg.csv")
+    df = pd.read_csv("spotifycharts-5YRmjoCTiI6uPGJAevX87A.csv")
 
     # Calcular a popularidade dos artistas
     popularidade = df.groupby("name_artist").size().reset_index(name='contagem')
@@ -46,5 +46,5 @@ def gerar_grafico_popularidade_artista_Top50():
 
     # Salvar o gráfico como imagem
     plt.tight_layout()
-    plt.savefig('static/grafico4.png')
+    plt.savefig('static/grafico8.png')
     plt.close()

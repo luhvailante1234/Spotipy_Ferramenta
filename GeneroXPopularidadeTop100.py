@@ -10,9 +10,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def gerar_grafico_popularidade_genero_Top50():
+def gerar_grafico_popularidade_genero_Top100():
     # Importar os dados do arquivo csv
-    df = pd.read_csv("spotifycharts-37i9dQZEVXbMXbN3EUUhlg.csv")
+    df = pd.read_csv("spotifycharts-5YRmjoCTiI6uPGJAevX87A.csv")
 
     # Calcular a distribuição das músicas por gênero
     distribuicao = df.groupby("genre").size()
@@ -44,6 +44,6 @@ def gerar_grafico_popularidade_genero_Top50():
 
     # Exibir o gráfico
     plt.tight_layout()
-    plt.savefig('static/grafico2.png')
+    plt.savefig('static/grafico6.png')
     plt.close()
     plt.show()
