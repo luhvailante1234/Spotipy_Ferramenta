@@ -25,7 +25,7 @@ def gerar_grafico_popularidade_media_por_genero_TopBrasil():
     plt.figure(figsize=(12, 6))
 
     # Usar um ciclo para repetir as cores conforme necessário
-    cores = cycle(sns.color_palette('viridis', len(popularidade_media_por_genero)))
+    cores = cycle(sns.color_palette('magma', len(popularidade_media_por_genero)))
 
     # Iterar sobre cada gênero e plotar uma barra com uma cor diferente
     for genero, popularidade in zip(popularidade_media_por_genero['genre'], popularidade_media_por_genero['popularity']):

@@ -21,7 +21,7 @@ def gerar_grafico_popularidade_genero_TopBrasil():
     plt.figure(figsize=(12, 6))
 
     # Usar um ciclo para repetir as cores conforme necessário
-    cores = cycle(sns.color_palette('viridis', len(distribuicao)))
+    cores = cycle(sns.color_palette('magma', len(distribuicao)))
 
     # Iterar sobre cada gênero e plotar uma barra com uma cor diferente
     for genero, contagem in distribuicao.items():

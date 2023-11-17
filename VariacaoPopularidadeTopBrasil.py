@@ -25,7 +25,7 @@ def gerar_grafico_variacao_popularidade_TopBrasil():
     top_10 = df_data_especifica.nlargest(10, 'popularity')
 
     # Criar uma paleta de cores
-    colors = sns.color_palette('viridis', len(top_10))
+    colors = sns.color_palette('magma', len(top_10))
 
     # Criar o gráfico de dispersão com legenda de cores
     plt.figure(figsize=(12, 6))

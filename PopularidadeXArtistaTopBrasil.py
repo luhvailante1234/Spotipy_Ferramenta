@@ -24,7 +24,7 @@ def gerar_grafico_popularidade_artista_TopBrasil():
     plt.figure(figsize=(12, 6))
     
     # Usar um ciclo para repetir as cores conforme necessário
-    cores = cycle(sns.color_palette('viridis', len(popularidade)))
+    cores = cycle(sns.color_palette('magma', len(popularidade)))
 
     # Criar o gráfico de barras horizontais
     for i, (artista, contagem) in enumerate(zip(popularidade['name_artist'], popularidade['contagem'])):
