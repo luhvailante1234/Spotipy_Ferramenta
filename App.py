@@ -8,6 +8,9 @@ from GeneroXPopularidadeTop100 import gerar_grafico_popularidade_genero_Top100
 from VariacaoPopularidadeTop100 import gerar_grafico_variacao_popularidade_Top100
 from PopularidadeXArtistaTop100 import gerar_grafico_popularidade_artista_Top100
 from GeneroXMediaTopBrasil import gerar_grafico_popularidade_media_por_genero_TopBrasil
+from GeneroXPopularidadeTopBrasil import gerar_grafico_popularidade_genero_TopBrasil
+from VariacaoPopularidadeTopBrasil import gerar_grafico_variacao_popularidade_TopBrasil
+from PopularidadeXArtistaTopBrasil import gerar_grafico_popularidade_artista_TopBrasil
 
 app = Flask(__name__)
 
@@ -34,6 +37,14 @@ def gerar_e_mostrar_grafico2():
     gerar_grafico_variacao_popularidade_Top100()
     gerar_grafico_popularidade_artista_Top100()
     return render_template('grafico.html', grafico5=True, grafico6=True, grafico7=True, grafico8=True)
+
+@app.route('/gerar_graficoTopBrasil')
+def gerar_e_mostrar_grafico3():
+    gerar_grafico_popularidade_media_por_genero_TopBrasil()
+    gerar_grafico_popularidade_genero_TopBrasil()
+    gerar_grafico_variacao_popularidade_TopBrasil()
+    gerar_grafico_popularidade_artista_TopBrasil()
+    return render_template('grafico.html', grafico9=True, grafico10=True, grafico11=True, grafico12=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
