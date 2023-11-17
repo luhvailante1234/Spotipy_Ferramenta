@@ -3,10 +3,13 @@ from GeneroXMediaTop50 import gerar_grafico_popularidade_media_por_genero_Top50
 from GeneroXPopularidadeTop50 import gerar_grafico_popularidade_genero_Top50
 from VariacaoPopularidadeTop50 import gerar_grafico_variacao_popularidade_Top50
 from PopularidadeXArtistaTop50 import gerar_grafico_popularidade_artista_Top50
+from DuracaoMusicasTop50 import  gerar_grafico_duracao_musicas_Top50
+
 from GeneroXMediaTop100 import gerar_grafico_popularidade_media_por_genero_Top100
 from GeneroXPopularidadeTop100 import gerar_grafico_popularidade_genero_Top100
 from VariacaoPopularidadeTop100 import gerar_grafico_variacao_popularidade_Top100
 from PopularidadeXArtistaTop100 import gerar_grafico_popularidade_artista_Top100
+
 from GeneroXMediaTopBrasil import gerar_grafico_popularidade_media_por_genero_TopBrasil
 from GeneroXPopularidadeTopBrasil import gerar_grafico_popularidade_genero_TopBrasil
 from VariacaoPopularidadeTopBrasil import gerar_grafico_variacao_popularidade_TopBrasil
@@ -28,7 +31,8 @@ def gerar_e_mostrar_grafico():
     gerar_grafico_popularidade_genero_Top50()
     gerar_grafico_variacao_popularidade_Top50()
     gerar_grafico_popularidade_artista_Top50()
-    return render_template('grafico.html', grafico1=True, grafico2=True, grafico3=True, grafico4=True)
+    gerar_grafico_duracao_musicas_Top50()
+    return render_template('grafico.html', grafico1=True, grafico2=True, grafico3=True, grafico4=True, grafico13=True)
 
 @app.route('/gerar_graficoTop100')
 def gerar_e_mostrar_grafico2():
