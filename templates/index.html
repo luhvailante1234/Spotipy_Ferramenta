@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
         
         body {
@@ -14,7 +15,7 @@
         }
 
         .Texto {
-            padding: 30px;
+            padding: 40px;
         }
 
         .image-container {
@@ -23,14 +24,15 @@
         }
 
         .image-container img {
-            max-width: 100%; /* Garante que a imagem se ajuste ao tamanho do container */
-            height: auto; /* Mantém a proporção da imagem */
+            max-width: 100%; 
+            height: auto; 
             width: 700px; 
         }
 
         .Botoes {
             text-align: right;
             padding: 200px;
+            
         }
 
         .Botoes img, .Botoes button {
@@ -44,21 +46,57 @@
             max-width: 100%;
             height: auto;
             width: 100%;
+            font-size: 20px; 
+            font-weight: bold;
         }
 
         h1 {
             color: limegreen;
             font-size: 2em;
         }
+        .botoes-redondos {
+            position: fixed;
+            top: 10%;
+            left: 1150px;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .botao-redondo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: limegreen;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+            cursor: pointer;
+        }
+
+        /* Ajustes para o ícone do Instagram */
+        .botao-instagram .material-icons {
+            font-size: 28px;
+        }
     </style>
    
-    <title>Gerador de Gráficos</title>
+    <title>Spotpy</title>
 </head>
 
     
     <body>
+        <div class="botoes-redondos">
+            <a href="https://www.instagram.com/spot.py/" class="botao-redondo">
+                <img src="{{ url_for('static', filename='logo.svg') }}" alt="insta"  width="24" height="24">   
+            </a>
+        </div>
+            
     <div class="image-container">
-        <h1> Você Gostaria de saber mais sobre as musicas ?</h1>
+        <h1> Você gostaria de saber mais sobre as musicas ?</h1>
         <img src="{{ url_for('static', filename='musica.svg') }}" alt="musica">
     </div>
     <div class = "Botoes">
@@ -77,6 +115,5 @@
     {% else %}
         <button onclick="window.location.href='/gerar_graficoTopBrasil'">Top Brasil</button>
     {% endif %}
-    </div>
     </body>
 </html>
