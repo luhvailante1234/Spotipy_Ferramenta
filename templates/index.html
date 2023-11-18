@@ -1,97 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gerador de Gráficos</title>
     <style>
+        
         body {
             background: #201b2c;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: flex-start;
             align-items: center;
             height: 100vh;
             margin: 0;
         }
 
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between; /* Espaço entre a imagem e os botões */
-            width: 100%; /* Garante que o espaço seja maximizado */
+        .Texto {
+            padding: 30px;
         }
 
         .image-container {
-            flex: 1; /* Espaço flexível para a imagem */
             text-align: center;
-            padding: 20px;
+            padding: 35px;
         }
 
         .image-container img {
+            max-width: 100%; /* Garante que a imagem se ajuste ao tamanho do container */
+            height: auto; /* Mantém a proporção da imagem */
+            width: 700px; 
+        }
+
+        .Botoes {
+            text-align: right;
+            padding: 200px;
+        }
+
+        .Botoes img, .Botoes button {
+            background: limegreen;
+            color: white;
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding: 40px 50px;
+            margin: 29px 0;
+            cursor: pointer;
             max-width: 100%;
             height: auto;
             width: 100%;
-            flex-direction: column;
-        }
-
-        .text-container {
-            flex: 0;
-            padding: 30px;
-           
         }
 
         h1 {
             color: limegreen;
             font-size: 2em;
-            padding: 30px;
-            flex: 0;
-            padding: 10px;
-            margin-right: 20px; 
-        }
-
-        .button-container {
-            flex: 1; /* Espaço flexível para os botões */
-            text-align: center;
-            padding: 20px;
-        }
-
-        .button-container form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .button-container button {
-            background: limegreen;
-            color: white;
-            border: 2px solid gray;
-            border-radius: 10px;
-            padding: 32px 70px;
-            margin: 20px 0;
-            cursor: pointer;
         }
     </style>
+   
+    <title>Gerador de Gráficos</title>
 </head>
 
     
     <body>
-        <h1>Gerador de Gráficos</h1>
-    
+    <div class="image-container">
+        <h1> Você Gostaria de saber mais sobre as musicas ?</h1>
+        <img src="{{ url_for('static', filename='musica.svg') }}" alt="musica">
+    </div>
+    <div class = "Botoes">
     {% if grafico1 %}
     <img src="{{ url_for('static', filename='grafico.png') }}" alt="Gráfico 1">
     {% else %}
-    <button onclick="window.location.href='/gerar_graficoTop50'">Top 50</button>
+        <button onclick="window.location.href='/gerar_graficoTop50'">Top 50</button>
     {% endif %}
-
     {% if grafico2 %}
     <img src="{{ url_for('static', filename='grafico2.png') }}" alt="Gráfico 2">
     {% else %}
-    <button onclick="window.location.href='/gerar_graficoTop100'">Top 100</button>
+        <button onclick="window.location.href='/gerar_graficoTop100'">Top 100</button>
     {% endif %}
-
     {% if grafico3 %}
-    <img src="{{ url_for('static', filename='grafico3.png') }}" alt="Gráfico 3">
+        <img src="{{ url_for('static', filename='grafico3.png') }}" alt="Gráfico 3">
     {% else %}
-    <button onclick="window.location.href='/gerar_graficoTopBrasil'">Top Brasil</button>
+        <button onclick="window.location.href='/gerar_graficoTopBrasil'">Top Brasil</button>
     {% endif %}
-</body>
+    </div>
+    </body>
 </html>
