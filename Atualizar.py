@@ -12,7 +12,7 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id,
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 username = 'spotifycharts'
-playlist_id = '37i9dQZF1DX0FOF1IUWK1W'
+playlist_id = '5YRmjoCTiI6uPGJAevX87A'
 
 def get_playlist_audio_features(username, playlist_id, sp):
     offset = 0
