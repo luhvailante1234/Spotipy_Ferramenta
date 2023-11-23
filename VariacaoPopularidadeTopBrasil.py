@@ -18,7 +18,7 @@ def gerar_grafico_variacao_popularidade_TopBrasil():
     df['date_collected'] = pd.to_datetime(df['date_collected'])
 
     # Escolher uma data específica (substitua '2023-01-01' pela data desejada)
-    data_especifica = '2023-11-16'
+    data_especifica = '2023-11-23'
     df_data_especifica = df[df['date_collected'] == data_especifica]
 
     # Selecionar as 10 músicas mais populares
