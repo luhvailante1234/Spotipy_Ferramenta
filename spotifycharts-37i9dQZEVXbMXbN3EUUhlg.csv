@@ -1,51 +1,51 @@
 energy,liveness,tempo,speechiness,acousticness,instrumentalness,time_signature,danceability,key,duration_ms,loudness,valence,mode,type,uri,name_artist,name_track,popularity,genre,date_collected
-0.631,0.0808,113.427,0.592,0.123,0.0,5,0.782,10,641941,-8.473,0.866,0,audio_features,spotify:track:2InS5VWKJQbsFBKOsf1cJB,Dj GBR,Let's Go 4,89,rave funk,2023-11-23
-0.228,0.102,162.524,0.53,0.889,0.00642,5,0.734,7,221538,-4.731,0.522,0,audio_features,spotify:track:00ZKeP47bZtswtANkvxz2j,Tropa do Bruxo,Baile do Bruxo,88,N/A,2023-11-23
-0.866,0.381,166.985,0.075,0.242,0.0,4,0.706,4,124512,-3.337,0.91,1,audio_features,spotify:track:6AENBD8I0mDGglFqrRZGu7,Gusttavo Lima,Canudinho - Ao Vivo,87,agronejo,2023-11-23
-0.95,0.958,159.881,0.09,0.21,0.0,4,0.571,7,202644,-2.893,0.543,0,audio_features,spotify:track:35D06z7kmwMmYYbyJ0BkSm,Manu,Daqui pra Sempre,86,arrocha,2023-11-23
-0.87,0.692,147.778,0.0942,0.444,0.0,4,0.529,1,166491,-3.463,0.384,0,audio_features,spotify:track:7DkhndGTKaqkFxxKN7XlAh,Guilherme & Benuto,Manda um Oi - Ao Vivo,85,agronejo,2023-11-23
-0.978,0.264,175.96,0.0477,0.424,0.0,4,0.739,8,214091,-2.617,0.958,1,audio_features,spotify:track:7GjAXYuxjuXPbQJzRnNdob,GREGO,Pane no Sistema,83,N/A,2023-11-23
-0.839,0.94,109.984,0.0393,0.33,0.0,4,0.664,4,173370,-3.379,0.48,0,audio_features,spotify:track:4YKujFSyakVjLdH1sDllVc,Simone Mendes,Dois Fugitivos - Ao Vivo,75,sertanejo,2023-11-23
-0.871,0.765,79.994,0.219,0.172,0.0,4,0.646,4,133547,-6.195,0.624,1,audio_features,spotify:track:42JNab8NPeCADJ9D3Cl5wS,Zé Neto & Cristiano,Barulho Do Foguete - Ao Vivo,87,agronejo,2023-11-23
-0.517,0.0979,129.987,0.159,0.143,0.0,4,0.73,6,162993,-7.079,0.362,0,audio_features,spotify:track:3XIXklO3e0uWUAUkOR7NLI,Luan Pereira,DENTRO DA HILUX,86,agronejo,2023-11-23
-0.578,0.0716,86.618,0.122,0.431,3.99e-06,5,0.876,6,131538,-1.275,0.721,1,audio_features,spotify:track:6zLBR9izBeZ1d0pfuwJgRa,Mc Ws da leste,Tipo Hollywood,78,N/A,2023-11-23
-0.752,0.912,167.073,0.157,0.708,6.07e-06,4,0.691,4,159323,-6.796,0.684,0,audio_features,spotify:track:4f0aDk7HX37SfzerfznYlr,Grupo Menos É Mais,Lapada Dela - Ao Vivo,86,pagode,2023-11-23
-0.669,0.245,139.975,0.0275,0.636,0.0,4,0.655,6,194582,-4.047,0.436,1,audio_features,spotify:track:4Z2i41GDQyu3KRpBavEnyR,Ana Castela,Solteiro Forçado - Boiadeira Internacional,86,agronejo,2023-11-23
-0.444,0.0762,127.414,0.123,0.07,0.00301,4,0.553,9,187153,-7.667,0.344,1,audio_features,spotify:track:2cZ62VBKsdZ7u1kKKJdFOc,Marshmello,Sou Musa do Verão,77,brostep,2023-11-23
-0.413,0.133,130.078,0.0752,0.504,0.0514,4,0.92,7,138462,-7.901,0.679,0,audio_features,spotify:track:64CovjRwInpOJW4PiGMprY,MC Kevin o Chris,Faz um Vuk Vuk (Teto Espelhado),86,funk 150 bpm,2023-11-23
-0.783,0.117,126.708,0.334,0.0458,0.000102,4,0.53,3,178081,-5.737,0.554,1,audio_features,spotify:track:4zNy0cxc4p36OLdPr0sI6h,DJ Arana,MONTAGEM ANOS 2000,85,funk mtg,2023-11-23
-0.76,0.247,154.136,0.0513,0.39,0.0,4,0.359,10,178251,-4.632,0.496,1,audio_features,spotify:track:4zW6JV4aqhXpbfZLZyEFvP,Henrique & Juliano,Quase Algo - Ao Vivo,83,agronejo,2023-11-23
-0.865,0.297,129.999,0.0315,0.449,3.05e-06,4,0.743,6,166775,-3.897,0.794,1,audio_features,spotify:track:53PpijFATt35Zxfl6LTxoK,Marília Mendonça,Leão,74,arrocha,2023-11-23
-0.499,0.134,124.05,0.0563,0.669,0.0,4,0.836,3,140323,-5.82,0.65,0,audio_features,spotify:track:4hKLzFvNwHF6dPosGT30ed,Veigh,Novo Balanço,84,trap brasileiro,2023-11-23
-0.778,0.356,156.144,0.0587,0.636,0.0,4,0.657,7,153237,-4.439,0.733,1,audio_features,spotify:track:7GScY8oE12cqTiNBzVQpUB,Gusttavo Lima,Mala dos Porta-Mala - Ao Vivo,85,agronejo,2023-11-23
-0.954,0.392,164.109,0.18,0.13,0.0,4,0.483,9,175468,-4.786,0.361,1,audio_features,spotify:track:4zUFA8l78k4tCmoVuGtV8z,Luan Santana,MEIO TERMO - Ao Vivo,84,arrocha,2023-11-23
-0.708,0.311,160.018,0.195,0.338,0.0,4,0.691,9,173698,-4.821,0.602,1,audio_features,spotify:track:4uqJelb9THHmJ3OCohg4ZJ,AgroPlay,Nosso Quadro,79,agronejo,2023-11-23
-0.75,0.0845,124.993,0.0534,0.424,4.76e-05,4,0.947,6,163200,-0.855,0.961,0,audio_features,spotify:track:54u86CmMqGI1rRuULlTqaB,Felipe Amorim,Toca o Trompete,85,arrocha,2023-11-23
-0.741,0.722,114.019,0.0285,0.179,0.0,4,0.606,5,177327,-3.973,0.239,1,audio_features,spotify:track:7G2yGMHlcPPTCDhMrAaMyZ,Ana Castela,Tô Voltando - (Boiadeira Internacional),84,agronejo,2023-11-23
-0.842,0.689,159.918,0.201,0.574,0.0,4,0.656,5,156942,-3.746,0.721,0,audio_features,spotify:track:0redQHBfejmPUhonR5ppGC,Guilherme & Benuto,Duas Três,84,agronejo,2023-11-23
-0.642,0.106,130.021,0.0379,0.97,0.803,4,0.789,0,197538,-8.631,0.894,0,audio_features,spotify:track:07DskqQ1NbTiotX1WIV7ob,Flora Matos,Piloto,83,afrofuturismo brasileiro,2023-11-23
-0.609,0.112,113.067,0.0375,0.521,1.01e-05,4,0.422,1,209520,-6.518,0.31,1,audio_features,spotify:track:7dKqPh21HpsysZvRWyNeM1,Isadora Pompeo,Bênçãos Que Não Têm Fim (Counting My Blessings),72,brazilian gospel,2023-11-23
-0.96,0.0853,130.118,0.0492,0.497,0.00526,4,0.863,11,92093,-1.458,0.586,1,audio_features,spotify:track:0fABszUFNbNq9IW503Gj8v,DENNIS,Tá OK,85,funk carioca,2023-11-23
-0.508,0.126,120.313,0.33,0.307,0.0,4,0.664,9,200000,-7.684,0.228,0,audio_features,spotify:track:1Vy9Wn5sbiduZKBqBlH3Mc,Vulgo FK,Ballena,82,trap brasileiro,2023-11-23
-0.922,0.371,101.571,0.0606,0.112,0.0,4,0.477,1,173968,-3.394,0.521,1,audio_features,spotify:track:0QcKkN8b4iVkmVsbaze8OS,Henrique & Juliano,Devia Ser Proibido - Ao Vivo Em Brasília,83,agronejo,2023-11-23
-0.801,0.525,151.391,0.0413,0.127,0.0,4,0.382,4,190294,-5.454,0.59,1,audio_features,spotify:track:0KhLYwYVhi13hMhxX73m55,Luan Santana,MULHER SEGURA - Ao Vivo,82,arrocha,2023-11-23
-0.732,0.244,141.944,0.0372,0.784,0.0,4,0.686,1,169559,-5.878,0.659,0,audio_features,spotify:track:6rpUGV7bcWW9ro65Bf8uYY,Israel & Rodolffo,Eu Não Dou Conta - Ao Vivo,82,agronejo,2023-11-23
-0.893,0.803,153.778,0.0866,0.176,0.0,4,0.588,6,178812,-2.743,0.626,1,audio_features,spotify:track:6vq7r1Pqd3pyI07u63cPZV,Simone Mendes,Erro Gostoso - Ao Vivo,71,sertanejo,2023-11-23
-0.825,0.689,144.667,0.126,0.322,0.0,4,0.521,8,171712,-6.025,0.692,0,audio_features,spotify:track:3PqU6gHWUaBTtIZi5oxEJ7,Zé Neto & Cristiano,Um Mês E Pouco - Ao Vivo,84,agronejo,2023-11-23
-0.562,0.0294,125.021,0.0461,0.205,0.00906,4,0.895,11,179702,-4.946,0.961,0,audio_features,spotify:track:6drlqBh6BeYZinmYQ9qR2n,MC Rogerinho,Furduncinho do Rogerinho,83,arrocha,2023-11-23
-0.651,0.124,130.066,0.0529,0.0948,0.0,4,0.879,0,190101,-2.6,0.505,0,audio_features,spotify:track:4wjDiZGsZYQqKkXyPcQGF6,MC K.K,Agudo Mágico 4,81,funk mandelao,2023-11-23
-0.762,0.0857,129.989,0.0452,0.318,0.000237,4,0.884,4,136615,-2.344,0.962,0,audio_features,spotify:track:7lTVXJfNK4xaJSUXCUac6a,Felipe Amorim,Fode Bem,74,arrocha,2023-11-23
-0.916,0.906,153.664,0.0461,0.309,0.0,4,0.625,6,168840,-3.704,0.746,1,audio_features,spotify:track:3PH1nUysW7ybo3Yu8sqlPN,Israel & Rodolffo,Seu Brilho Sumiu - Ao Vivo,81,agronejo,2023-11-23
-0.34,0.354,130.231,0.0873,0.763,4.99e-05,4,0.625,5,120014,-12.004,0.36,1,audio_features,spotify:track:2uhw2oYbugGJbn10wipNX5,Mc Livinho,Novidade na Área,83,funk carioca,2023-11-23
-0.457,0.0738,115.065,0.53,0.599,0.0,5,0.653,6,468837,-10.425,0.783,0,audio_features,spotify:track:62W2f0QOg20ufNjJQHqnkq,Mc IG,Fernando de Noronha,74,funk carioca,2023-11-23
-0.927,0.326,124.003,0.0854,0.29,0.0,4,0.82,10,152086,-2.785,0.867,1,audio_features,spotify:track:1Z3QqD45wKKN6fUKBXSvcZ,Diego & Victor Hugo,Pirulito Vermelho,82,arrocha,2023-11-23
-0.702,0.841,143.931,0.0449,0.486,0.0,4,0.673,0,167552,-4.947,0.707,1,audio_features,spotify:track:6PXyRQ9Q0eNlLGsI6GxiYX,Gusttavo Lima,Torce o Olho - Ao Vivo,71,agronejo,2023-11-23
-0.664,0.324,104.073,0.0284,0.691,0.0,4,0.701,5,166189,-4.42,0.437,1,audio_features,spotify:track:1xjy8WRyYUkayJcyyWQpYe,Ana Castela,Fronteira - Ao Vivo,41,agronejo,2023-11-23
-0.373,0.0897,165.935,0.0917,0.593,0.00202,4,0.714,4,127229,-8.01,0.703,0,audio_features,spotify:track:4ldcxPVAtih8alepJTu8Hx,Mc IG,"Faz Completo, Chefe",73,funk carioca,2023-11-23
-0.733,0.114,111.018,0.0319,0.256,0.0,1,0.75,6,131872,-3.18,0.844,0,audio_features,spotify:track:3rUGC1vUpkDG9CZFHMur1t,Tate McRae,greedy,100,alt z,2023-11-23
-0.7,0.452,147.989,0.0501,0.436,0.0,4,0.682,10,134932,-4.279,0.664,1,audio_features,spotify:track:3S8M3mZGIc10IdtmNTsrjQ,Traia Véia,Eu Não Previ - Ao Vivo em Goiânia,79,N/A,2023-11-23
-0.465,0.37,124.782,0.11,0.678,0.0,4,0.69,9,174306,-6.854,0.333,0,audio_features,spotify:track:2J4nJffXU569d2ld9yxH6D,Juliette,Ciclone,63,N/A,2023-11-23
-0.702,0.105,169.994,0.157,0.117,2.06e-05,4,0.552,9,178427,-5.707,0.564,1,audio_features,spotify:track:1BxfuPKGuaTgP7aM0Bbdwr,Taylor Swift,Cruel Summer,99,pop,2023-11-23
-0.49,0.106,86.272,0.178,0.332,0.0,3,0.799,7,104145,-6.788,0.662,0,audio_features,spotify:track:6hu4HvpNzrW2RIEEAZC3vD,KayBlack,Segredo,78,trap brasileiro,2023-11-23
-0.821,0.394,153.743,0.0507,0.39,0.0,4,0.492,11,192438,-4.146,0.647,1,audio_features,spotify:track:6tGlPVCrjerAAbKJs85m5g,Henrique & Juliano,Seu Erro - Ao Vivo,78,agronejo,2023-11-23
-0.594,0.171,75.346,0.438,0.272,0.000931,5,0.621,1,148615,-2.104,0.678,1,audio_features,spotify:track:7Iq55toOSSBCEoGuXxQSa1,Mc Danone,Vem Quebrando,82,funk bh,2023-11-23
+0.631,0.0808,113.427,0.592,0.123,0.0,5,0.782,10,641941,-8.473,0.866,0,audio_features,spotify:track:2InS5VWKJQbsFBKOsf1cJB,Dj GBR,Let's Go 4,89,rave funk,2023-12-15
+0.573,0.0897,141.935,0.0596,0.195,0.0,4,0.572,8,199827,-6.028,0.468,1,audio_features,spotify:track:2IDf0IZ9dfw0uDYV2n1bJc,Luan Santana,DEJA VU,77,arrocha,2023-12-15
+0.228,0.102,162.524,0.53,0.889,0.00642,5,0.734,7,221538,-4.731,0.522,0,audio_features,spotify:track:00ZKeP47bZtswtANkvxz2j,Tropa do Bruxo,Baile do Bruxo,88,N/A,2023-12-15
+0.95,0.958,159.881,0.09,0.21,0.0,4,0.571,7,202644,-2.893,0.543,0,audio_features,spotify:track:35D06z7kmwMmYYbyJ0BkSm,Manu,Daqui pra Sempre,87,arrocha,2023-12-15
+0.871,0.765,79.994,0.219,0.172,0.0,4,0.646,4,133547,-6.195,0.624,1,audio_features,spotify:track:42JNab8NPeCADJ9D3Cl5wS,Zé Neto & Cristiano,Barulho Do Foguete - Ao Vivo,87,agronejo,2023-12-15
+0.866,0.381,166.985,0.075,0.242,0.0,4,0.706,4,124512,-3.337,0.91,1,audio_features,spotify:track:6AENBD8I0mDGglFqrRZGu7,Gusttavo Lima,Canudinho - Ao Vivo,87,agronejo,2023-12-15
+0.6,0.131,136.189,0.415,0.15,0.0,4,0.644,0,141176,-4.805,0.518,0,audio_features,spotify:track:2twZl1jsRbJRTNCE6VB6eW,Chefin,10 Carros,81,funk carioca,2023-12-15
+0.87,0.692,147.778,0.0942,0.444,0.0,4,0.529,1,166491,-3.463,0.384,0,audio_features,spotify:track:7DkhndGTKaqkFxxKN7XlAh,Guilherme & Benuto,Manda um Oi - Ao Vivo,87,agronejo,2023-12-15
+0.609,0.112,113.067,0.0375,0.521,1.01e-05,4,0.422,1,209520,-6.518,0.31,1,audio_features,spotify:track:7dKqPh21HpsysZvRWyNeM1,Isadora Pompeo,Bênçãos Que Não Têm Fim (Counting My Blessings),82,brazilian gospel,2023-12-15
+0.603,0.118,124.109,0.0775,0.392,0.0,4,0.795,1,232258,-6.703,0.753,1,audio_features,spotify:track:697gwO5YoSGVAnlfREIZll,MC PH,Tenho Que Me Decidir,74,funk consciente,2023-12-15
+0.517,0.0979,129.987,0.159,0.143,0.0,4,0.73,6,162993,-7.079,0.362,0,audio_features,spotify:track:3XIXklO3e0uWUAUkOR7NLI,Luan Pereira,DENTRO DA HILUX,86,agronejo,2023-12-15
+0.752,0.912,167.073,0.157,0.708,6.07e-06,4,0.691,4,159323,-6.796,0.684,0,audio_features,spotify:track:4f0aDk7HX37SfzerfznYlr,Grupo Menos É Mais,Lapada Dela - Ao Vivo,86,pagode,2023-12-15
+0.839,0.94,109.984,0.0393,0.33,0.0,4,0.664,4,173370,-3.379,0.48,0,audio_features,spotify:track:4YKujFSyakVjLdH1sDllVc,Simone Mendes,Dois Fugitivos - Ao Vivo,75,sertanejo,2023-12-15
+0.805,0.556,124.041,0.0452,0.242,0.0,4,0.629,9,265451,-4.158,0.589,1,audio_features,spotify:track:2sYFUcurlISdHlAsnYCEgD,Lauana Prado,Me Leva Pra Casa / Escrito Nas Estrelas / Saudade - Ao Vivo,72,sertanejo,2023-12-15
+0.664,0.324,104.073,0.0284,0.691,0.0,4,0.701,5,166189,-4.42,0.437,1,audio_features,spotify:track:1xjy8WRyYUkayJcyyWQpYe,Ana Castela,Fronteira - Ao Vivo,70,agronejo,2023-12-15
+0.978,0.264,175.96,0.0477,0.424,0.0,4,0.739,8,214091,-2.617,0.958,1,audio_features,spotify:track:7GjAXYuxjuXPbQJzRnNdob,GREGO,Pane no Sistema,85,N/A,2023-12-15
+0.708,0.311,160.018,0.195,0.338,0.0,4,0.691,9,173698,-4.821,0.602,1,audio_features,spotify:track:4uqJelb9THHmJ3OCohg4ZJ,AgroPlay,Nosso Quadro,80,agronejo,2023-12-15
+0.893,0.803,153.778,0.0866,0.176,0.0,4,0.588,6,178812,-2.743,0.626,1,audio_features,spotify:track:6vq7r1Pqd3pyI07u63cPZV,Simone Mendes,Erro Gostoso - Ao Vivo,74,sertanejo,2023-12-15
+0.636,0.0683,129.891,0.0521,0.239,0.0,4,0.837,10,127385,-4.206,0.857,0,audio_features,spotify:track:0oQCRjrWGvkqkdf82UlXI3,PEDRO SAMPAIO,POCPOC,75,funk carioca,2023-12-15
+0.669,0.245,139.975,0.0275,0.636,0.0,4,0.655,6,194582,-4.047,0.436,1,audio_features,spotify:track:4Z2i41GDQyu3KRpBavEnyR,Ana Castela,Solteiro Forçado - Boiadeira Internacional,85,agronejo,2023-12-15
+0.741,0.722,114.019,0.0285,0.179,0.0,4,0.606,5,177327,-3.973,0.239,1,audio_features,spotify:track:7G2yGMHlcPPTCDhMrAaMyZ,Ana Castela,Tô Voltando - (Boiadeira Internacional),84,agronejo,2023-12-15
+0.413,0.133,130.078,0.0752,0.504,0.0514,4,0.92,7,138462,-7.901,0.679,0,audio_features,spotify:track:64CovjRwInpOJW4PiGMprY,MC Kevin o Chris,Faz um Vuk Vuk (Teto Espelhado),85,funk 150 bpm,2023-12-15
+0.499,0.134,124.05,0.0563,0.669,0.0,4,0.836,3,140323,-5.82,0.65,0,audio_features,spotify:track:4hKLzFvNwHF6dPosGT30ed,Veigh,Novo Balanço,84,trap brasileiro,2023-12-15
+0.83,0.334,122.109,0.122,0.467,0.0,4,0.841,2,171101,-2.502,0.798,0,audio_features,spotify:track:0wuj2T6IZtotux1Jjluo7m,Leo Santana,Cama Repetida,76,arrocha,2023-12-15
+0.865,0.297,129.999,0.0315,0.449,3.05e-06,4,0.743,6,166775,-3.897,0.794,1,audio_features,spotify:track:53PpijFATt35Zxfl6LTxoK,Marília Mendonça,Leão,76,arrocha,2023-12-15
+0.855,0.48,159.966,0.0807,0.418,0.0,4,0.53,2,172549,-3.972,0.38,0,audio_features,spotify:track:7vCtJ5u7dFM4tAWtgFf4l8,Murilo Huff,Anestesiado - Ao Vivo,79,arrocha,2023-12-15
+0.76,0.247,154.136,0.0513,0.39,0.0,4,0.359,10,178251,-4.632,0.496,1,audio_features,spotify:track:4zW6JV4aqhXpbfZLZyEFvP,Henrique & Juliano,Quase Algo - Ao Vivo Em Nova Iorque / 2022,84,agronejo,2023-12-15
+0.668,0.171,120.088,0.104,0.496,0.0,4,0.682,0,181500,-6.586,0.644,0,audio_features,spotify:track:4QCwvUs4ob87Tq9VP07Uo3,Borges,Loucura,63,trap brasileiro,2023-12-15
+0.444,0.0762,127.414,0.123,0.07,0.00301,4,0.553,9,187153,-7.667,0.344,1,audio_features,spotify:track:2cZ62VBKsdZ7u1kKKJdFOc,Marshmello,Sou Musa do Verão,79,brostep,2023-12-15
+0.732,0.244,141.944,0.0372,0.784,0.0,4,0.686,1,169559,-5.878,0.659,0,audio_features,spotify:track:6rpUGV7bcWW9ro65Bf8uYY,Israel & Rodolffo,Eu Não Dou Conta - Ao Vivo,83,agronejo,2023-12-15
+0.778,0.356,156.144,0.0587,0.636,0.0,4,0.657,7,153237,-4.439,0.733,1,audio_features,spotify:track:7GScY8oE12cqTiNBzVQpUB,Gusttavo Lima,Mala dos Porta-Mala - Ao Vivo,84,agronejo,2023-12-15
+0.955,0.393,164.126,0.178,0.123,0.0,4,0.48,9,175468,-4.771,0.337,1,audio_features,spotify:track:23IebZSNZ8VzwUr4rJNGRG,Luan Santana,MEIO TERMO - Ao Vivo,80,arrocha,2023-12-15
+0.7,0.452,147.989,0.0501,0.436,0.0,4,0.682,10,134932,-4.279,0.664,1,audio_features,spotify:track:3S8M3mZGIc10IdtmNTsrjQ,Traia Véia,Eu Não Previ - Ao Vivo em Goiânia,82,N/A,2023-12-15
+0.701,0.0992,131.764,0.161,0.587,0.000147,4,0.759,6,163436,-4.056,0.687,0,audio_features,spotify:track:5v1Fjk1RDKGqxwNOzGDewL,Zé Felipe,Então Vai,69,agronejo,2023-12-15
+0.856,0.349,139.383,0.111,0.279,0.0,4,0.577,9,156432,-4.633,0.72,1,audio_features,spotify:track:6Td7nVeAOUz13zhDlUY8jv,Luan Pereira,CHEIRO NA CAMISETA,80,agronejo,2023-12-15
+0.825,0.689,144.667,0.126,0.322,0.0,4,0.521,8,171712,-6.025,0.692,0,audio_features,spotify:track:3PqU6gHWUaBTtIZi5oxEJ7,Zé Neto & Cristiano,Um Mês E Pouco - Ao Vivo,84,agronejo,2023-12-15
+0.922,0.371,101.571,0.0606,0.112,0.0,4,0.477,1,173968,-3.394,0.521,1,audio_features,spotify:track:0QcKkN8b4iVkmVsbaze8OS,Henrique & Juliano,Devia Ser Proibido - Ao Vivo Em Brasília,83,agronejo,2023-12-15
+0.842,0.689,159.918,0.201,0.574,0.0,4,0.656,5,156942,-3.746,0.721,0,audio_features,spotify:track:0redQHBfejmPUhonR5ppGC,Guilherme & Benuto,Duas Três,84,agronejo,2023-12-15
+0.783,0.117,126.708,0.334,0.0458,0.000102,4,0.53,3,178081,-5.737,0.554,1,audio_features,spotify:track:4zNy0cxc4p36OLdPr0sI6h,MC Maneirinho,MONTAGEM ANOS 2000,84,funk carioca,2023-12-15
+0.75,0.0845,124.993,0.0534,0.424,4.76e-05,4,0.947,6,163200,-0.855,0.961,0,audio_features,spotify:track:54u86CmMqGI1rRuULlTqaB,Felipe Amorim,Toca o Trompete,84,arrocha,2023-12-15
+0.508,0.126,120.313,0.33,0.307,0.0,4,0.664,9,200000,-7.684,0.228,0,audio_features,spotify:track:1Vy9Wn5sbiduZKBqBlH3Mc,Vulgo FK,Ballena,81,trap brasileiro,2023-12-15
+0.857,0.732,158.074,0.0974,0.266,0.0,1,0.5,2,141216,-3.582,0.816,1,audio_features,spotify:track:4ssTFuVeNJG8py5dr2P2pV,Matheus & Kauan,Não Recomendo - Ao Vivo,77,agronejo,2023-12-15
+0.465,0.37,124.782,0.11,0.678,0.0,4,0.69,9,174306,-6.854,0.333,0,audio_features,spotify:track:2J4nJffXU569d2ld9yxH6D,Juliette,Ciclone,66,N/A,2023-12-15
+0.615,0.124,171.893,0.0706,0.774,0.0,4,0.4,3,262258,-5.32,0.268,0,audio_features,spotify:track:4VI4yOAb7fWrFCnuGBIaeG,MC Cabelinho,Carta Aberta,76,funk consciente,2023-12-15
+0.96,0.0853,130.118,0.0492,0.497,0.00526,4,0.863,11,92093,-1.458,0.586,1,audio_features,spotify:track:0fABszUFNbNq9IW503Gj8v,DENNIS,Tá OK,84,funk carioca,2023-12-15
+0.373,0.0897,165.935,0.0917,0.593,0.00202,4,0.714,4,127229,-8.01,0.703,0,audio_features,spotify:track:4ldcxPVAtih8alepJTu8Hx,Mc IG,"Faz Completo, Chefe",75,funk carioca,2023-12-15
+0.88,0.153,180.011,0.101,0.0562,0.06,4,0.72,9,197333,-2.834,0.463,1,audio_features,spotify:track:05WVKTdZhlIMX4qqMLuo0f,Peso Pluma,BELLAKEO,82,corridos tumbados,2023-12-15
+0.916,0.906,153.664,0.0461,0.309,0.0,4,0.625,6,168840,-3.704,0.746,1,audio_features,spotify:track:3PH1nUysW7ybo3Yu8sqlPN,Israel & Rodolffo,Seu Brilho Sumiu - Ao Vivo,80,agronejo,2023-12-15
+0.562,0.0294,125.021,0.0461,0.205,0.00906,4,0.895,11,179702,-4.946,0.961,0,audio_features,spotify:track:6drlqBh6BeYZinmYQ9qR2n,MC Rogerinho,Furduncinho do Rogerinho,82,arrocha,2023-12-15
+0.888,0.824,76.067,0.272,0.473,0.0,4,0.422,4,174106,-3.714,0.696,1,audio_features,spotify:track:0EhGgIoOPjsqfB2ktrGgJd,Felipe e Rodrigo,Oceano - Ao Vivo,79,sertanejo,2023-12-15
