@@ -10,36 +10,30 @@ def index():
     return render_template('index.html')
 
 def gerar_grafico_danceability_energy_Top100():
-    # Leitura do arquivo CSV
+    
     df = pd.read_csv('spotifycharts-5YRmjoCTiI6uPGJAevX87A.csv')
 
-    # Criando o gráfico de dispersão
     plt.figure(figsize=(12, 6))
 
-    # Usar a mesma paleta de cores do primeiro gráfico
     cores = sns.color_palette('plasma', len(df))
 
-    # Plotar o gráfico de dispersão
     scatter = plt.scatter(df['danceability'], df['energy'], c=cores, edgecolor='black', alpha=0.7)
 
-    # Adicionando rótulos e título ao gráfico
     plt.xlabel('Danceability', fontsize=17)
     plt.ylabel('Energy', fontsize=17)
     plt.title('Relação entre Danceability e Energy', fontsize=17)
 
-    # Ajustar o tamanho da fonte nos rótulos do eixo x
     plt.xticks(fontsize=12)
-
-    # Ajustar o tamanho da fonte nos rótulos do eixo y
     plt.yticks(fontsize=12)
 
-    # Adicionar legenda com as cores fora do gráfico
-    handles = [plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=cores[i], markersize=10) for i in range(len(df))]
-    plt.legend(handles, df['name_track'], title='Legenda', fontsize=10, title_fontsize=12, bbox_to_anchor=(1.05, 1), loc='upper left')
+    for i, txt in enumerate(df['name_track']):
+        plt.annotate(i + 1, (df['danceability'][i], df['energy'][i]), fontsize=8, ha='right', va='bottom')
 
-    # Salvar o gráfico como imagem
+    handles = [plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=cores[i], markersize=10) for i in range(len(df))]
+    plt.legend(handles, [f"{i+1}. {name}" for i, name in enumerate(df['name_track'])], title='Legenda', fontsize=10, title_fontsize=12, bbox_to_anchor=(1.05, 1), loc='upper left')
+
     plt.tight_layout()
     plt.savefig('static/grafico17.png', bbox_inches='tight')
 
-    # Fechar a figura após salvar
     plt.close()
+
